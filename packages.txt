@@ -1,0 +1,6 @@
+email
+imapclient
+kivy
+kivymd
+os
+smtplib

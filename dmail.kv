@@ -1,0 +1,25 @@
+# #:import MDFillRoundFlatIconButton kivymd.button.MDFillRoundFlatIconButton
+# #:import MDFillRoundFlatButton kivymd.button.MDFillRoundFlatButton
+# #:import MDTextFieldRect kivymd.textfields.MDTextFieldRect
+# #:import Factory kivy.factory.Factory
+# #:set cor_default [0, 0.784, 0.325, 1]
+
+
+# <MYFillRoundFlatIconButton@MDFillRoundFlatIconButton>:
+#     #BOTAO
+#     size_hint: [.75, None]
+#     height: dp(45)
+#     pos_hint: {'center_x': .5}
+#     on_release:
+#         app.root.transition.direction = 'left'
+#         app.root.get_screen('tela_login').provedor = self.text.lower()
+#         app.root.current = 'tela_login'
+
+
+
+# <MYTextFieldRound@MDTextFieldRound>:
+#     #TEXTINPUT
+#     icon_type: 'right'
+#     icon_color: app.theme_cls.primary_color
+#     normal_color: [1,1,1,.15]
+#     pos_hint: {'center_x': .5}
